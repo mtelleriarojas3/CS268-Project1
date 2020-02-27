@@ -1,0 +1,25 @@
+/*THIS IS THE CSS FOR CONTACT PAGE*/
+h1{
+    color: #111;
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+    text-align: center;
+    
+}
+
+.content1{
+    max-width: 800px;
+    margin: auto;
+    font-size: 24px;
+    background: white;
+    border: 1px solid #555;
+    text-align: center;
+
+}
+
+
+
+body{
+
+    background-color: #3390FF;
+    
+}

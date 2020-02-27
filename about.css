@@ -1,0 +1,20 @@
+/*THIS IS THE CSS FOR ABOUT PAGE*/
+h1{
+    color: #111;
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+    text-align: center;  
+}
+
+#content{
+    text-align: center;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #555;
+    margin: auto;
+
+}
+
+
+body{
+    background: #3390FF;
+}
