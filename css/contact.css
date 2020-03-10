@@ -58,7 +58,7 @@ h1{/*TITLE OF CURRENT PAGE*/
   font-size: 18px;
   margin-top: 6px;
 }
-.btn{
+.btn{ /*SEND BUTTON*/
   display: inline-block;
   background: #9b59b6;
   padding: 14px 0;
