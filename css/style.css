@@ -17,17 +17,16 @@
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
   max-width: 900px;
   margin: auto;
-  padding: 50px 50px;
+  padding: 150px 150px;
   background: white;
   border: 1px solid #555;
   text-align: center;
   box-shadow: 0 0 20px #000000b3;
   border-radius: 8px;
-  
   font-family: "Montserrat",sans-serif;
-  
  
 }
+
 
 h1{/*TITLE OF CURRENT PAGE*/
   text-align: left;
