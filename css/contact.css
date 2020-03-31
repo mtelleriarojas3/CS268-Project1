@@ -167,9 +167,24 @@ nav > ul > li:active, .active {
   display: block; 
   font-size: 1.1em;
   margin-bottom: 3px;
-  
 
 }
+
+.footer-section ul{/*middle section (dots)*/
+  color: white;
+  padding: 20px;
+}
+
+.footer-section ul li a{/*letters*/
+  color: white;
+}
+
+.footer-section ul li{/*separation between links*/
+  margin-top: 20px;
+}
+
+
+
 .footer .footer-content .contact-form textarea{/*text area from footer*/
   width: 100%;
   margin-top: 20px;
