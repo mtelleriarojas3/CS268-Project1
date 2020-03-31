@@ -184,21 +184,6 @@ nav > ul > li:active, .active {
 }
 
 
-
-.footer .footer-content .contact-form textarea{/*text area from footer*/
-  width: 100%;
-  margin-top: 20px;
-
-}
-.footer .footer-content .contact-form button{/*SEND button*/
-  width: 100px;
-  
-}
-textarea{
-  height: 150px;/*200px*/
-  width: 300px;/*250px*/
-}
-
 .footer .footer-content .link a li{/*middle section for quick links*/
   margin-top: 20px;
   color: white;

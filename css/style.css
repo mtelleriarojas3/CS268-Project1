@@ -139,19 +139,30 @@ nav > ul > li:active, .active {
   margin-top: 20px;
 }
 
+hr{
+  margin-bottom: 20px;
+}
 
-.footer .footer-content .contact-form textarea{/*text area from footer*/
+.footer .footer-content .contact-form .text-input .contact-input{/*text area from footer*/
   width: 100%;
   margin-top: 20px;
 
 }
-.footer .footer-content .contact-form button{/*SEND button*/
+
+.footer .footer-content .contact-form .contact-email {/*email text area*/
+  width: 300px;
+  height: 20px;
+  margin-right: 50%;
+}
+
+
+.footer .footer-content .contact-form .btn-big{/*SEND button*/
   width: 100px;
   
 }
 textarea{
-  height: 150px;/*200px*/
-  width: 300px;/*250px*/
+  height: 150px;
+  width: 300px;
 }
 
 .footer .footer-content .link a li{/*middle section for quick links*/
