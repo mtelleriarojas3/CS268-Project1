@@ -71,34 +71,47 @@ h1{/*TITLE OF CURRENT PAGE*/
 }
 /**Here ends the code we have to transfer to style css*/
 
+header{
+  background: black;
+  height: 80px;
+  display: flex;
+}
+
+h1{/*TITLE OF CURRENT PAGE*/
+  text-align: left;
+  color: #f39d1a;
+}
+
+img{
+  border-radius: 20px;
+  margin: auto;
+}
+
+
+
 #logo{
   flex-grow: 1;
   object-fit: contain;
   object-position: left;
+  height: 70px;
 }
 
-nav{
-  width: 100%;
-  height: 80px;
-  background-color: #000;
-  position: fixed;
-  line-height: 80px;
-  display: flex;
-  left: 0;
-  right: 0;
-  object-position: right;
-  
-}
 
-nav > ul{
+nav > ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  margin-right: 30px;
+  background-color: black;
 }
 
-nav ul li{
-  list-style-type: none;
-  display: inline-block;
+nav > ul > li {
+  color: white;
+  font-family: sans-serif;
+  padding: 30px;
   transition: 0.8s all;
 }
 
@@ -110,6 +123,14 @@ nav ul li a{
   text-decoration: none;
   color: #fff;
   padding: 30px;
+}
+
+nav > ul > li:active, .active {
+  background-color: #f39d1a;
+}
+
+#menu-button {
+  display: none;
 }
 
 /*Footer starts here*/
@@ -181,19 +202,64 @@ textarea{
 }
 /*footer ends here*/
 
+#menu-button {
+  display: none;
+  padding: 30px;
+  align-self: stretch;
 
-@media (max-width: 670px) {
-        nav > ul{
-            display: flex;
-            flex-direction: column;
-            background-color: black;
-            position: absolute;
-            top: 100%;
-            right: 0;
-            left: 0;
-            width: 100%;
-            text-align: center;
-        }
+  align-items: right;
+  justify-content: center;
+}
+@media (max-width: 1020px) {
+  header {
+    background-color: black;
+    box-sizing: border-box;
+    height: 80px;
+
+    box-shadow: 0 -15px 10px 20px gray;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  #menu-button {
+    display: flex;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+  }
+
+  nav.open {
+    display: flex;
+    
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  nav > ul > li {
+    background-color: black;
+    border-top: 1px solid white;
+    color: white;
+  }
+
+  .contact-form{
+    max-width: 500px;
+    position: fixed;
+  }
         
     }
 
