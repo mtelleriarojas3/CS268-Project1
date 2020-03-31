@@ -206,8 +206,6 @@ nav > ul > li:active, .active {
   display: none;
   padding: 30px;
   align-self: stretch;
-
-  align-items: right;
   justify-content: center;
 }
 @media (max-width: 1020px) {

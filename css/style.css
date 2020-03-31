@@ -286,8 +286,6 @@ transition: 0.5s all;
   display: none;
   padding: 30px;
   align-self: stretch;
-
-  align-items: right;
   justify-content: center;
 }
 /*LET'S SEE*/
