@@ -354,7 +354,7 @@ transition: 0.5s all;
 }
 /*LET'S SEE*/
 
-@media (max-width: 1020px) {
+@media (max-width: 600px) {
   header {
     background-color: black;
     box-sizing: border-box;
