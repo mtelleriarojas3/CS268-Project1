@@ -185,7 +185,7 @@ textarea{
 
 /*HERE WE ADD SOME CODE FOR THE GALLERY*/
 
-.slidershow{
+.slidershow{/*Size of image*/
   width: 700px;
   height: 400px;
   overflow: hidden;
@@ -198,12 +198,12 @@ textarea{
 }
 .navigation{
   position: absolute;
-  bottom: 20px;
+  bottom: 220px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
 }
-.bar{
+.bar{/*bar to move to another image*/
   width: 50px;
   height: 10px;
   border: 2px solid #fff;
@@ -235,6 +235,7 @@ input[name="r"]{
   height: 100%;
 }
 
+/*Location of images when clicking on bar*/
 #r1:checked ~ .s1{
   margin-left: 0;
 }
