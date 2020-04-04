@@ -20,7 +20,7 @@
 }
 
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
-  max-width: 900px;/*this is what gives the margin to the square*/
+  
   margin: auto;
   padding: 150px 150px;
   border: 1px solid #555;
