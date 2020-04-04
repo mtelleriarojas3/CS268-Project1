@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   font-family: verdana;
+  /*
+  overflow-x: hidden;
+  overflow-y: hidden;
+  */
 }
 
 
 .main{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: lightblue; /*white*/
   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cocha.jpg) no-repeat;
   background-size: 100% 100%;
@@ -16,7 +20,7 @@
 }
 
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
-  max-width: 900px;
+  max-width: 900px;/*this is what gives the margin to the square*/
   margin: auto;
   padding: 150px 150px;
   border: 1px solid #555;
@@ -25,6 +29,7 @@
   border-radius: 8px;
   font-family: "Montserrat",sans-serif;
   color: white;
+  overflow-x: hidden;
 }
 
 header{
@@ -92,8 +97,11 @@ nav > ul > li:active, .active {
   background: black;/*#303036*/
   color: #d3d3d3;
   height: 400px;
-  position: relative;
+  /*HERE!!!!!!
   
+  overflow-y: hidden;
+  */
+  overflow-x: hidden;
 }
 
 .footer .footer-content{/*outside borders of footer*/
@@ -187,31 +195,25 @@ textarea{
 
 .slidershow{/*Size of image*/
   width: 700px;
-  height: 400px;/*400px*/
+  height: 400px;
   overflow: hidden;
+  
 }
 .middle{
-  position: absolute;
-  top: 50%;
+  /*position: absolute; */
+  /*
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
+  */
+  margin: auto;
 }
 .navigation{
   position: absolute;
-  bottom: 220px;
+  /*bottom: 220px;*/
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-}
-
-#gallery-title{
-text-align: center;
-padding-top: 5%;
-}
-
-#gallery-hr{
-  margin: auto;
-  max-width: 50%;
 }
 
 .bar{/*bar to move to another image*/
@@ -268,11 +270,15 @@ input[name="r"]{
 
 /*CODE FOR  TITLE OF HOMEPAGE*/
 .title{/*Title of the homePage*/
+  /*
   position: sticky;
   margin-left: auto;
   margin-right: auto;
   top: 50%;
+  */
+  margin-top: 40%;
   
+
 }
 
 .title h1{
@@ -283,10 +289,13 @@ input[name="r"]{
 }
 
 .button{
-  position: fixed;
+  /*
+  position: static;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  */
+  margin-top: 5%;
 }
 
 .hbtn{
@@ -311,37 +320,7 @@ transition: 0.5s all;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
-  
-  
-}
-.container{
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.container .box{
-  position: relative;
-  width: 300px;
-  background: #fff;
-  padding: 10px;
-  box-shadow: 0 15px 45px rgba(0,0,0,.1);
-}
-
-.content .box:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ff226d;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: ease-in;
-}
-
+} 
 /*END OF CODE FOR SERVICES PAGE*/
 
 
@@ -354,7 +333,7 @@ transition: 0.5s all;
 }
 /*LET'S SEE*/
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header {
     background-color: black;
     box-sizing: border-box;
@@ -408,6 +387,11 @@ transition: 0.5s all;
     height: 140px;
   }
 
+  .slide img{
+    height:40%;
+    width: 40%;
+    transform: translateX(1%);
+  }
   nav > ul {
     flex-direction: column;
   }
@@ -418,11 +402,24 @@ transition: 0.5s all;
     color: white;
   }
 
-  .footer .footer-content .contact-form{
+  .footer .footer-content .contact-form{/*the "send us a message section*/
     display: none;
   }
 
+  .middle{/*this moves the slides to the middle */
+    position: static;
+    top: 60%;
+    left: 50%;
+    transform: translate(-35%,-0%);
+  }
 
+  .navigation{/*navigation buttons for the slides*/
+    bottom: 400px;
+    left: 50%;
+    transform: translate(-45%,-0%);
+  }
+
+  
 
     }/*END OF MEDIA*/
 

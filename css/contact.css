@@ -138,7 +138,7 @@ nav > ul > li:active, .active {
   background: black;/*#303036*/
   color: #d3d3d3;
   height: 400px;
-  position: relative;
+  /*position: relative;*/
 }
 
 .footer .footer-content{/*outside borders of footer*/
@@ -241,7 +241,6 @@ nav > ul > li:active, .active {
 
   nav.open {
     display: flex;
-    
   }
 
   nav > ul {
@@ -256,7 +255,8 @@ nav > ul > li:active, .active {
 
   .contact-form{
     max-width: 500px;
-    position: fixed;
+    position: relative;
+    
   }
         
     }
