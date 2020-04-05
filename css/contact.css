@@ -18,15 +18,30 @@ h1{/*TITLE OF CURRENT PAGE*/
   color: #f39d1a;
 }
 /*Here starts the code for style.css*/
+header{
+  background: black;
+  height: 80px;
+  display: flex;
+  
+}
+
+.content{/*INSIDE THE WHITE BOX AKA CONTENT*/
+  margin: auto;
+  padding: 100px 100px;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
 
 .contact-form{
   width: 85%;
   max-width: 600px;
+  min-width: 355px;
   background: #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  margin-top: 5%;
   padding: 30px 40px;/*30px 40px*/
   box-sizing: border-box;
   border-radius: 8px;
@@ -129,9 +144,6 @@ nav > ul > li:active, .active {
   background-color: #f39d1a;
 }
 
-#menu-button {
-  display: none;
-}
 
 /*Footer starts here*/
 .footer{
@@ -208,6 +220,7 @@ nav > ul > li:active, .active {
   align-self: stretch;
   justify-content: center;
 }
+
 @media (max-width: 1020px) {
   header {
     background-color: black;
@@ -239,6 +252,10 @@ nav > ul > li:active, .active {
     display: none;
   }
 
+  #navigation{
+    position: absolute;
+  }
+
   nav.open {
     display: flex;
   }
@@ -254,9 +271,12 @@ nav > ul > li:active, .active {
   }
 
   .contact-form{
-    max-width: 500px;
-    position: relative;
-    
+    max-width: 355px;
+    margin-top: 40%;
+  }
+
+  .footer .footer-content .link{/*quick links*/
+    display: none;
   }
         
     }
