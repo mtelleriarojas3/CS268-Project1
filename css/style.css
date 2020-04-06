@@ -94,10 +94,6 @@ nav > ul > li:active, .active {
   background: black;/*#303036*/
   color: #d3d3d3;
   height: 400px;
-  /*HERE!!!!!!
-  
-  overflow-y: hidden;
-  */
   overflow-x: hidden;
 }
 
@@ -127,8 +123,6 @@ nav > ul > li:active, .active {
   display: block; 
   font-size: 1.1em;
   margin-bottom: 3px;
-  
-
 }
 
 .footer-section ul{/*middle section (dots)*/
@@ -205,12 +199,16 @@ textarea{
   */
   margin: auto;
 }
-.navigation{
-  position: absolute;
-  /*bottom: 220px;*/
+.navigation-pictures{
+  display: flex;
+  margin-bottom: 50%;
+  margin-top: 40%;
+  left: 50%;
+  /*
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
+  position: absolute;
+  */
 }
 
 .bar{/*bar to move to another image*/
@@ -220,6 +218,7 @@ textarea{
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
+  
 }
 .bar:hover{
   background:#f39d1a;
@@ -311,7 +310,6 @@ transition: 0.5s all;
 
 
 /*START CODE FOR SERVICES PAGE*/
-
 .content .box{
   display: flex;
   justify-content: center;/*we might get rid of the problem of letters if we delete this line and the next one going downwards*/
@@ -328,8 +326,8 @@ transition: 0.5s all;
   align-self: stretch;
   justify-content: center;
 }
-/*LET'S SEE*/
 
+/*LET'S SEE*/
 @media (max-width: 800px) {
   header {
     background-color: black;
@@ -385,11 +383,6 @@ transition: 0.5s all;
     height: 140px;
   }
 
-  .slide img{
-    height:40%;
-    width: 40%;
-    transform: translateX(1%);
-  }
   nav > ul {
     flex-direction: column;
   }
@@ -408,17 +401,24 @@ transition: 0.5s all;
     display: none;
   }
 
-  .middle{/*this moves the slides to the middle */
-    position: static;
-    top: 60%;
-    left: 50%;
-    transform: translate(-35%,-0%);
+  .slide img{
+      height:40%;
+      width: 40%;
   }
 
-  .navigation{/*navigation buttons for the slides*/
-    bottom: 400px;
-    left: 50%;
-    transform: translate(-45%,-0%);
+  .middle{/*this moves the slides to the middle */
+    float: left;
+    margin-left: -250px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    margin-bottom: 0;
+  }
+
+
+  .navigation-pictures{/*navigation buttons for the slides*/
+    margin: auto;
+    margin-top: -200px;
+    float: left;
+    margin-left: -60px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    
   }
   
 
