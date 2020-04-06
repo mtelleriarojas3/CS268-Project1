@@ -273,6 +273,7 @@ nav > ul > li:active, .active {
   .contact-form{
     max-width: 355px;
     margin-top: 40%;
+    padding: 20px;
   }
 
   .footer .footer-content .link{/*quick links*/
