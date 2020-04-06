@@ -349,6 +349,7 @@ transition: 0.5s all;
   }
   .title{
     top: 50%;
+    
   }
   .title h1{
     font-size: 24px;
@@ -359,7 +360,7 @@ transition: 0.5s all;
     display: flex;
     flex-direction: column;
     top:60%;
-    
+    min-width: 300px;
   }
 
   #menu-button {
