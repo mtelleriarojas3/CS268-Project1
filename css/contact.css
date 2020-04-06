@@ -27,7 +27,7 @@ header{
 
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
   margin: auto;
-  padding: 150px 150px;
+  /*padding: 100px 100px;*/
   text-align: center;
   font-family: "Montserrat",sans-serif;
   color: white;
@@ -42,7 +42,7 @@ header{
   background: #f1f1f1;
   margin: auto;
   margin-top: 5%;
-  padding: 30px 40px;/*30px 40px*/
+  padding: 40px ;/*30px 40px*/
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
