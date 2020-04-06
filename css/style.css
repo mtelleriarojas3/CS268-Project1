@@ -201,7 +201,9 @@ textarea{
 }
 .navigation-pictures{
   display: flex;
-  left: 50%;
+  float: left;
+  margin-left: 40%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+
   /*
   left: 50%;
   transform: translateX(-50%);
@@ -413,7 +415,7 @@ transition: 0.5s all;
 
 
   .navigation-pictures{/*navigation buttons for the slides*/
-    margin: auto;
+    
     margin-top: -200px;
     float: left;
     margin-left: -30px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
