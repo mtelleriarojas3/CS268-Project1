@@ -360,7 +360,7 @@ transition: 0.5s all;
     display: flex;
     flex-direction: column;
     top:60%;
-    min-width: 300px;
+    
   }
 
   #menu-button {
