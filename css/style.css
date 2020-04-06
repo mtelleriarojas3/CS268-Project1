@@ -418,7 +418,7 @@ transition: 0.5s all;
     
     margin-top: -200px;
     float: left;
-    margin-left: -50%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    margin-left: -10%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
     
   }
 
