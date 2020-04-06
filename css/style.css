@@ -201,8 +201,6 @@ textarea{
 }
 .navigation-pictures{
   display: flex;
-  margin-bottom: 50%;
-  margin-top: 40%;
   left: 50%;
   /*
   left: 50%;
@@ -409,7 +407,7 @@ transition: 0.5s all;
 
   .middle{/*this moves the slides to the middle */
     float: left;
-    margin-left: -250px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    margin-left: -210px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
     margin-bottom: 0;
   }
 
@@ -418,12 +416,12 @@ transition: 0.5s all;
     margin: auto;
     margin-top: -200px;
     float: left;
-    margin-left: -60px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    margin-left: -30px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
     
   }
 
   .content{
-    padding: 100px 100px;
+    padding: 150px 100px;
   }
   
 
