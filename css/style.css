@@ -421,6 +421,10 @@ transition: 0.5s all;
     margin-left: -60px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
     
   }
+
+  .content{
+    padding: 100px 100px;
+  }
   
 
 
