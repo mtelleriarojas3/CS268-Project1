@@ -27,7 +27,6 @@ header{
 
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
   margin: auto;
-  /*padding: 100px 100px;*/
   text-align: center;
   font-family: "Montserrat",sans-serif;
   color: white;
@@ -150,7 +149,6 @@ nav > ul > li:active, .active {
   background: black;/*#303036*/
   color: #d3d3d3;
   height: 400px;
-  /*position: relative;*/
 }
 
 .footer .footer-content{/*outside borders of footer*/
@@ -208,7 +206,6 @@ nav > ul > li:active, .active {
   width: 100%;
   position: absolute;
   text-align: center;
-  /*bottom: 0px;*/
   left: 0px;
   padding-top: 20px;
 }

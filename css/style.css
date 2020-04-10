@@ -9,7 +9,7 @@
 .main{
   width: 100%;
   height: 100%;
-  background-color: lightblue; /*white*/
+  background-color: lightblue; 
   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cocha.jpg) no-repeat;
   background-size: 100% 100%;
   
@@ -17,9 +17,8 @@
 }
 
 .content{/*INSIDE THE WHITE BOX AKA CONTENT*/
-  /*MAX WIDTH*/
   margin: auto;
-  padding: 150px 150px;/*THIS MIGHR BE THE PROBLEM WITH THE LETTERS. TRY GETTING RID OF THEM*/
+  padding: 150px 150px;
   border: 1px solid #555;
   text-align: center;
   box-shadow: 0 0 20px #000000b3;
@@ -91,7 +90,7 @@ nav > ul > li:active, .active {
 
 /*Footer starts here*/
 .footer{
-  background: black;/*#303036*/
+  background: black;
   color: #d3d3d3;
   height: 400px;
   overflow-x: hidden;
@@ -191,24 +190,12 @@ textarea{
   
 }
 .middle{
-  /*position: absolute; */
-  /*
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  */
   margin: auto;
 }
 .navigation-pictures{
   display: flex;
   float: left;
   margin-left: 40%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
-
-  /*
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  */
 }
 
 .bar{/*bar to move to another image*/
@@ -266,15 +253,7 @@ input[name="r"]{
 
 /*CODE FOR  TITLE OF HOMEPAGE*/
 .title{/*Title of the homePage*/
-  /*
-  position: sticky;
-  margin-left: auto;
-  margin-right: auto;
-  top: 50%;
-  */
   margin-top: 10%;
-  
-
 }
 
 .title h1{
@@ -285,12 +264,6 @@ input[name="r"]{
 }
 
 .button{
-  /*
-  position: static;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  */
   margin-top: 5%;
 }
 
@@ -325,6 +298,12 @@ transition: 0.5s all;
   padding: 30px;
   align-self: stretch;
   justify-content: center;
+}
+
+#link-to-site{
+  color: #f39d1a;
+  font: bold;
+  font-size: large;
 }
 
 /*LET'S SEE*/
@@ -408,18 +387,16 @@ transition: 0.5s all;
   }
 
   .middle{/*this moves the slides to the middle */
-    margin-top: 50%;
+    margin-top: 40%;
     float: left;
-    margin-left: -240px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
-    margin-bottom: 0;
+    margin-left: -220px;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+
   }
 
-
   .navigation-pictures{/*navigation buttons for the slides*/
-    
-    margin-top: -200px;
+    margin-top: -220px;
     float: left;
-    margin-left: -20%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
+    margin-left: -15%;/*THIS HELPED ME MOVE THE IMAGES TO THE MIDDLE -250PX*/
     
   }
 
